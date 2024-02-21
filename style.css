@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    background-image: url("./night-falls-on-a-spooky-gothic-skyscraper-generated-by-ai.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+header{
+    height: 100%;
+    padding: 50px 0;
+    background: linear-gradient(to bottom, black, transparent);
+}
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+
+}
+h1{
+    color: white;
+    font-family: "Pacifico";
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 15px 10px 5px black;
+
+}
+
+h2{
+    color: white;
+    font-family: "Pacifico";
+    text-shadow: 10px 10px 5px black;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding-left: 25px;
+    color: white;
+    text-align: justify;
+    margin-left: 100px;
+}
+.right{
+    height: 100%;
+    width: 50%;
+    float: right;
+    color: white;
+    text-align: justify;
+    padding-right: 50px;
+
+}
+
+.left p{
+    width: 80%;
+}
+
+.right p{
+    width: 80%;
+}
+
+.left img{
+    padding-left: 100px;
+}
+
+.right iframe{
+    padding-left: 100px;
+}
